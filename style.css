@@ -7,10 +7,12 @@ body {
     margin-right: auto;
     position: relative;
 }
+
    
 .background {
    background-repeat: no-repeat;
    background-position: center;
+   
    
 }
 
@@ -109,10 +111,23 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-    html {
-      background-color: white;
-      width:  10%;
-      height: 10%;
+     body{
+      background-image: url('img/mobile.png');
+      background-size: auto;
     }
   }
+
+  @media only screen and (max-width: 600px) {
+    .textbox .maintext{
+     font-size: 8px;
+   }
+   .headline {
+       font-size: 10px;
+   }
+
+   .line {
+       width: 300px;
+   }
+ }
+
 
