@@ -110,24 +110,5 @@ body {
     padding: 10px;
 }
 
-@media only screen and (max-width: 600px) {
-     body{
-      background-image: url('img/mobile.png');
-      background-size: auto;
-    }
-  }
-
-  @media only screen and (max-width: 600px) {
-    .textbox .maintext{
-     font-size: 8px;
-   }
-   .headline {
-       font-size: 10px;
-   }
-
-   .line {
-       width: 300px;
-   }
- }
 
 
