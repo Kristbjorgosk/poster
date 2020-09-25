@@ -108,9 +108,4 @@ body {
     padding: 10px;
 }
 
-    @media only screen and (max-width: 600px) {
-        body {
-          height: 642px;
-          width: 395px;
-        }
-      }
+  
